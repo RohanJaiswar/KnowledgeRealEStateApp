@@ -165,19 +165,19 @@ const S = {
 // ─── Logos ────────────────────────────────────────────────────────────────────
 const Logo = () => (
   <div style={{ display: "flex", alignItems: "center", gap: 10 }}>
-    <img src="/logo-official.webp" alt="KRT Logo" style={{ width: 160, height: "auto", objectFit: "contain" }} />
+    <img src="./logo-official.webp" alt="KRT Logo" style={{ width: 160, height: "auto", objectFit: "contain" }} />
   </div>
 );
 
 const LogoWhite = () => (
   <div style={{ display: "flex", alignItems: "center", gap: 10, filter: "drop-shadow(0 2px 8px rgba(0,0,0,0.4))" }}>
-    <img src="/logo-official.webp" alt="KRT Logo" style={{ width: 220, height: "auto", objectFit: "contain" }} />
+    <img src="./logo-official.webp" alt="KRT Logo" style={{ width: 220, height: "auto", objectFit: "contain" }} />
   </div>
 );
 
 const LogoTopbar = () => (
   <div style={{ display: "flex", alignItems: "center", gap: 8 }}>
-    <img src="/logo-official.webp" alt="KRT Logo" style={{ height: 28, width: "auto", objectFit: "contain" }} />
+    <img src="./logo-official.webp" alt="KRT Logo" style={{ height: 28, width: "auto", objectFit: "contain" }} />
   </div>
 );
 
@@ -236,7 +236,7 @@ function FirstRunSetup({ onDone }) {
         @media (min-width: 900px) { .auth-sidebar { display: flex; flex: 1; position: relative; overflow: hidden; align-items: center; justify-content: center; } }
       `}</style>
       <div className="auth-sidebar">
-        <div style={{ position: "absolute", inset: 0, background: "url('/real_estate_bg.png') center/cover no-repeat" }} />
+        <div style={{ position: "absolute", inset: 0, background: "url('./real_estate_bg.png') center/cover no-repeat" }} />
         <div style={{ position: "absolute", inset: 0, background: "linear-gradient(135deg, rgba(15,23,42,0.95) 0%, rgba(30,41,59,0.7) 100%)" }} />
         <div style={{ position: "relative", zIndex: 10, color: "#fff", padding: 60, maxWidth: 500 }}>
           <div style={{ marginBottom: 40 }}><LogoWhite /></div>
@@ -327,7 +327,7 @@ function LoginScreen({ users, onLogin, onSignUp }) {
         @media (min-width: 900px) { .auth-sidebar { display: flex; flex: 1; position: relative; overflow: hidden; align-items: center; justify-content: center; } }
       `}</style>
       <div className="auth-sidebar">
-        <div style={{ position: "absolute", inset: 0, background: "url('/real_estate_bg.png') center/cover no-repeat" }} />
+        <div style={{ position: "absolute", inset: 0, background: "url('./real_estate_bg.png') center/cover no-repeat" }} />
         <div style={{ position: "absolute", inset: 0, background: "linear-gradient(135deg, rgba(15,23,42,0.95) 0%, rgba(30,41,59,0.7) 100%)" }} />
         <div style={{ position: "relative", zIndex: 10, color: "#fff", padding: 60, maxWidth: 500 }}>
           <div style={{ marginBottom: 40 }}><LogoWhite /></div>
